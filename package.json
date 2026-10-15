@@ -1,0 +1,29 @@
+{
+  "name": "sauce-demo-automation",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript automation framework for sauce-demo.myshopify.com using Page Object Model",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "test:login": "npx playwright test tests/login.spec.ts",
+    "test:home": "npx playwright test tests/home.spec.ts",
+    "test:collection": "npx playwright test tests/collection.spec.ts",
+    "test:product": "npx playwright test tests/product.spec.ts",
+    "test:search": "npx playwright test tests/search.spec.ts",
+    "test:cart": "npx playwright test tests/cart.spec.ts",
+    "test:checkout": "npx playwright test tests/checkout.spec.ts",
+    "test:account": "npx playwright test tests/account.spec.ts",
+    "test:nav": "npx playwright test tests/navigation.spec.ts",
+    "report": "npx playwright show-report"
+  },
+  "keywords": ["playwright", "typescript", "automation", "shopify", "pom"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}

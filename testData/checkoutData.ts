@@ -1,0 +1,26 @@
+export const checkoutData = {
+  shippingAddress: {
+    email: "ilovepumpkins999@gmail.com",
+    firstName: "John",
+    lastName: "Doe",
+    address: "123 Main Street",
+    apartment: "Apt 4B",
+    city: "New York",
+    state: "New York",
+    zip: "10001",
+    country: "United States",
+    phone: "1234567890",
+  },
+  alternateAddress: {
+    email: "ilovepumpkins999@gmail.com",
+    firstName: "Jane",
+    lastName: "Smith",
+    address: "456 Oak Avenue",
+    apartment: "",
+    city: "Los Angeles",
+    state: "California",
+    zip: "90001",
+    country: "United States",
+    phone: "9876543210",
+  },
+};
